@@ -12,7 +12,12 @@ class IndexController extends Controller
     public function show()
     {
         $sumup = DB::select('select type,count(*) as cnt from counters group by type order by type asc');
-        return view('welcome', ['chanting' => $sumup[0]->cnt,'kowtow'=>$sumup[1]->cnt,'veg'=>$sumup[2]->cnt]);
+        
+        if (count($sumup)>2) {
+            return view('welcome', ['chanting' => $sumup[0]->cnt,'kowtow'=>$sumup[1]->cnt,'veg'=>$sumup[2]->cnt]);
+        }else{
+            return view('welcome', ['chanting' =>0,'kowtow'=>0,'veg'=>0]);
+        }
     }
 
     public function store(Request $request)

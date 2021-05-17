@@ -41,24 +41,18 @@ function MM_goToURL() { //v3.0
       <td colspan="2" align="center" valign="middle"><img src="{{ URL::to('/') }}/image/command.jpg"  width="561" /></td>
     </tr>
     <tr>
-      <td height="300vw" colspan="2" align="center" valign="middle"><span class="T1">
+      <td height="200vw" colspan="2" align="center" valign="middle"><span style="font-size:5vw;">
       《響應您我善願同步祈願》<br />
-
-感謝台灣比起世界，晚了一年才擴散<br />
-台灣疫情擴散，我們一起用<font color="#F72610" >正能量轉化負能量</font><br />
-相信上天、相信愿力、相信愿力抵業力<br />
-事事感恩遇考懺悔、希望人人都能脫劫關<br />
-並培養蔬食與誦經祈福的習慣<br /><br />
+      相信上天、相信愿力、相信愿力抵業力<br />
+事事感恩遇考懺悔、希望人人都能脫劫關<br /><br />
 
 #善願同步迴向祈願#<br />
-下面三類其一完成後點擊<span class="T2">「我已經完成」迴向</span><br />
+下面三類其一完成後點擊「我已經完成」迴向<br />
 把愛串起來 凝聚您我慈悲之心<br />
-叩求諸天仙佛慈悲<br />
-挽化疫情止息 願天下眾生平安<br />
 
     </tr>
     <tr>
-      <td height="200" colspan="2" align="center" valign="middle"><table width="80%" border="0" align="center" cellpadding="0" cellspacing="0">
+      <td height="100" colspan="2" align="center" valign="middle"><table width="80%" border="0" align="center" cellpadding="0" cellspacing="0">
       <tr>
         <td width="30%" align="center"><font size="3em" color="#1A5E85" style="word-wrap:break-word">彌勒救苦真經<br>1萬5千部迴向</font></td>
         <td width="30%" align="center"><font size="3em" color="#853F1A" style="word-wrap:break-word">誠心叩首祈願祝禱<br>300萬叩頭迴向</font></td>
