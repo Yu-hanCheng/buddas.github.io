@@ -19,3 +19,4 @@ use App\Http\Controllers\IndexController;
 // });
 
 Route::get('/',  [IndexController::class, 'show']);
+Route::post('/',  [IndexController::class, 'store']);
