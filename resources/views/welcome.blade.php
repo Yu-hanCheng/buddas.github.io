@@ -19,7 +19,7 @@ body {
 	margin-right: 0px;
 	margin-bottom: 0px;
 	background-image: url();
-	background-color:#FEDC0B;
+	background-color:#FCE6D8;
 }
 </style>
 <link href="kh2020.css" rel="stylesheet" type="text/css" />
