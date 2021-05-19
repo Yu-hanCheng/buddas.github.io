@@ -23,7 +23,7 @@ class IndexController extends Controller
     public function store(Request $request)
     {
         $key=collect($request->all())->except('_token')->keys()[0];
-        DB::insert('insert into counters (type,created_at) values (?,now())',[$key]);
+        DB::insert('insert into counters (type,created_at) values (?,utc_timestamp())',[$key]);
         return redirect('/');
     } 
     
