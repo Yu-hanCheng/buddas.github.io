@@ -106,7 +106,7 @@
                                 <ul class="list-unstyled mt-3 mb-4">
                                     <li>1 日 1 齋疫情消災</li>
                                 </ul>
-                                <button name="kowtow" type="submit" class="w-100 btn btn-lg btn-primary">
+                                <button name="veg" type="submit" class="w-100 btn btn-lg btn-primary">
                                     我已經響應吃素1餐/次
                                 </button>
                             </div>
