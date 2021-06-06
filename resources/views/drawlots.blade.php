@@ -38,7 +38,7 @@
         }
         function draw(){
             var random = getRandomIntInclusive(10,45);
-            var str = "{{ URL::to('/') }}/image/buddas/"+random+".png"; 
+            var str = "public/image/buddas/"+random+".png"; 
             document.getElementById('lots')
             .src=str;
         }
@@ -62,7 +62,7 @@
                         </button>
                     </div>
                     <div class="card-body">
-                <img id="lots" src="{{ URL::to('/') }}/image/buddas/{{ $random }}.png" class="center"
+                <img id="lots" src="" class="center"
                 alt="仙佛慈語" />
                     </div>
                 </div>
