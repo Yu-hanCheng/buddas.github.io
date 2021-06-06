@@ -18,5 +18,5 @@ use App\Http\Controllers\IndexController;
 //     return view('welcome');
 // });
 
-Route::get('/',  [IndexController::class, 'show']);
+Route::get('/',  [IndexController::class, 'drawlots']);
 Route::post('/',  [IndexController::class, 'store']);
